@@ -26,24 +26,24 @@ $(document).ready(function(){
       score+=points;
     }
     if (score == 0) {
-      $("#score").html("Your score is " + score + "/100. You didn't study at all");
+      $("#score").html("Your score is " + score + "/100. You didn't study at all<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFX0ucphlkiFj9d_KemB6h_s2HRLbQXmvRS34e28bBiE0uyRxT4w' width='300' />");
     }
     else if (score == 25) {
-        $("#score").html("Your score is " + score + "/100. You need to spend more time. Try again.");
+        $("#score").html("Your score is " + score + "/100. You need to spend more time. Try again.<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfItEPBDTUkbFMSfjAmEemTyqlZcZ4EJDi5PP85LRiPNwxzZXtFw' width='300' />");
 
     }
-    else if (score == 50) {
-        $("#score").html("Your score is " + score + "/100. So close .Try again");
-
-    }
-    else if (score == 75) {
-            $("#score").html("Your score is " + score + "/100. You didn't study at all");
-    }
-    else if (score == 100) {
-            $("#score").html("Your score is " + score + "/100. Excellent! You're a JavaScript pro!<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzrkM1Izbwg_KChTNZnFQqDHD7hKD-D-zqama5T1dcLTZirPUu' width='300' />");
-    }
-  $( "form#myForm" ).slideUp(900)
-    $("#score" ).show(2000)
+  //   else if (score == 50) {
+  //       $("#score").html("Your score is " + score + "/100. So close .Try again<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRitHYC9cO9WMVwDR8C16TzcEBlK2TRDA7rzixIP60OyayAYEB' width='300' />");
+  //
+  //   }
+  //   else if (score == 75) {
+  //           $("#score").html("Your score is " + score + "/100. You didn't study at all<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv1--oKZGMK30GgfEIu4cy223m2KHr3dQkq1onNfmgIrQrMi7X' width='300' />");
+  //   }
+  //   else if (score == 100) {
+  //           $("#score").html("Your score is " + score + "/100. Excellent! You're a JavaScript pro!<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzrkM1Izbwg_KChTNZnFQqDHD7hKD-D-zqama5T1dcLTZirPUu' width='300' />");
+  //   }
+  // $( "form#myForm" ).slideUp(900)
+  //   $("#score" ).show(2000)
   });
 });
 
