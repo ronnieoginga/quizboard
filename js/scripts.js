@@ -7,7 +7,27 @@ $(document).ready(function(){
     var answer3 = $("input:radio[name=q3]:checked").val();
     var answer4 = $("input:radio[name=q4]:checked").val();
 
-    alert(answer1);
+    var score = 0;
+    var points = 25;
+
+    if(answer1 == "25"){
+      score+=points;
+    }
+
+    if(answer2 == "25"){
+      score+=points;
+    }
+
+    if(answer3 == "25"){
+      score+=points;
+    }
+
+    if(answer4 == "25"){
+      score+=points;
+    }
+    if (score == 0) {
+      $("#score").html("Your score is " + score + "/100. You didn't study at all");
+    }
 
   });
 });
