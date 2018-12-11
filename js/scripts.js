@@ -42,6 +42,8 @@ $(document).ready(function(){
     else if (score == 100) {
             $("#score").html("Your score is " + score + "/100. Excellent! You're a JavaScript pro!");
     }
+  $( "form#myForm" ).slideUp(900)
+    $("#score" ).show(2000)
   });
 });
 
