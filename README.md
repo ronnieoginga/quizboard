@@ -1,4 +1,4 @@
-#Quiz Board
+# Quiz Board
 
 ## Description
 
@@ -8,18 +8,27 @@ The user has to read the questions  which after answering it will give the score
 
 ## Install
 
-$ apt install --global quizboard
-Usage
+$ apt install -- quizboard
+
+
 $ quizboard --help
 
+if stuck
+
 ## Usage
+
 $ quizboard [repo | user/repo]
 
 ### Examples
+
 $ quizboard
+
 $ quizboard myrepo
+
 $ quizboard avajs/ava
+
 ## Tip
+
 Add alias gh=quizboard to your .zshrc/.bashrc, so that you can run it with $ gh instead.
 
 ## Related

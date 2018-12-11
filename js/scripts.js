@@ -26,10 +26,23 @@ $(document).ready(function(){
       score+=points;
     }
     if (score == 0) {
-      $("#score").html("Your score is " + score + "/100. You didn't study at all");
-    }
-
-  });
+  //     $("#score").html("Your score is " + score + "/100. You didn't study at all");
+  //   }
+  //   else if (score == 25) {
+  //       $("#score").html("Your score is " + score + "/100. You need to spend more time. Try again.");
+  //
+  //   }
+  //   else if (score == 50) {
+  //       $("#score").html("Your score is " + score + "/100. So close .Try again");
+  //
+  //   }
+  //   else if (score == 75) {
+  //           $("#score").html("Your score is " + score + "/100. You didn't study at all");
+  //   }
+  //   else if (score == 100) {
+  //           $("#score").html("Your score is " + score + "/100. Excellent! You're a JavaScript pro!");
+  //   }
+  // });
 });
 
 // document.getElementById("form").onsubmit=function() {
@@ -48,7 +61,7 @@ $(document).ready(function(){
 //
 //
 // if (result == 0) {result2 = "I don't think you studied."};
-// if (result == 25) {result2 = "You need to spend more time. Try again."};
+// if (result == 25) {result2 = };
 // if (result == 50) {result2 = "I think you could do better. Try again."};
 // if (result == 75) {result2 = "So close. Try again."};
 // if (result == 100) {result2 = "Excellent! You're a JavaScript pro!"};
