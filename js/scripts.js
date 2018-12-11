@@ -36,9 +36,9 @@ $(document).ready(function(){
         $("#score").html("Your score is " + score + "/100. So close .Try again<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRitHYC9cO9WMVwDR8C16TzcEBlK2TRDA7rzixIP60OyayAYEB' width='300' />");
 
     }
-  //   else if (score == 75) {
-  //           $("#score").html("Your score is " + score + "/100. You didn't study at all<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv1--oKZGMK30GgfEIu4cy223m2KHr3dQkq1onNfmgIrQrMi7X' width='300' />");
-  //   }
+    else if (score == 75) {
+            $("#score").html("Your score is " + score + "/100. You didn't study at all<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv1--oKZGMK30GgfEIu4cy223m2KHr3dQkq1onNfmgIrQrMi7X' width='300' />");
+    }
   //   else if (score == 100) {
   //           $("#score").html("Your score is " + score + "/100. Excellent! You're a JavaScript pro!<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzrkM1Izbwg_KChTNZnFQqDHD7hKD-D-zqama5T1dcLTZirPUu' width='300' />");
   //   }
