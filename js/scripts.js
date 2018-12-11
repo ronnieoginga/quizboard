@@ -26,23 +26,23 @@ $(document).ready(function(){
       score+=points;
     }
     if (score == 0) {
-  //     $("#score").html("Your score is " + score + "/100. You didn't study at all");
-  //   }
-  //   else if (score == 25) {
-  //       $("#score").html("Your score is " + score + "/100. You need to spend more time. Try again.");
-  //
-  //   }
-  //   else if (score == 50) {
-  //       $("#score").html("Your score is " + score + "/100. So close .Try again");
-  //
-  //   }
-  //   else if (score == 75) {
-  //           $("#score").html("Your score is " + score + "/100. You didn't study at all");
-  //   }
-  //   else if (score == 100) {
-  //           $("#score").html("Your score is " + score + "/100. Excellent! You're a JavaScript pro!");
-  //   }
-  // });
+      $("#score").html("Your score is " + score + "/100. You didn't study at all");
+    }
+    else if (score == 25) {
+        $("#score").html("Your score is " + score + "/100. You need to spend more time. Try again.");
+
+    }
+    else if (score == 50) {
+        $("#score").html("Your score is " + score + "/100. So close .Try again");
+
+    }
+    else if (score == 75) {
+            $("#score").html("Your score is " + score + "/100. You didn't study at all");
+    }
+    else if (score == 100) {
+            $("#score").html("Your score is " + score + "/100. Excellent! You're a JavaScript pro!");
+    }
+  });
 });
 
 // document.getElementById("form").onsubmit=function() {
