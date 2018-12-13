@@ -1,4 +1,10 @@
 .container{
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8WvdDarbcJvHqkOC_lKB-h33YxeAo6uph_hzCxfne0m9C7S1XxQ");
-  background-size:99.99 %;
+  background-size: 100%;
+}
+button{
+   background-color: #4CAF50;
+   border: none;
+   font-size: 16px;
+   text-align: center;
 }
