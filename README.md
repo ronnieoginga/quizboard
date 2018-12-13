@@ -39,3 +39,11 @@ gh-upstream - Open the GitHub page of the upstream remote for the repo in the cu
 ## License
 
 MIT © Ronnieoginga
+
+## BDD
+
+The user reading the questions and comming up with an answer
+
+Selection of answers using radiobuttons
+
+Submission using subbmit button to get scores
